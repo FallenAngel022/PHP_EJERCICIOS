@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"     
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">   
+<html xmlns="http://www.w3.org/1999/xhtml"  xml:lang="en" lang="en"> 
+<head> 
+    <meta http-equiv="content-type" content="text/html;charset=iso-8859-1" /> 
+    <title>Titulo de la pagina HTML5</title> 
+</head>   
+<body style="background-color:pink;">
+     <font color="blue">
+
+
+  <form action="02_envioconversion.php" method="POST">
+
+    <h3>Cambiar un numero de una base a otra base.</h3>
+
+    <fieldset>
+
+    <legend><h3>Introduce tu numero a convertir</h3></legend>
+
+    <input type="text" name="numero" required/> <br/>
+
+  </fieldset>
+
+
+  <fieldset>
+
+    <legend><h3>Introduce la base actual</h3></legend>
+
+    <input type="radio" name="base" value="decimal" />Base Decimal <br/>
+
+    <input type="radio" name="base" value="octal" />Base Octal <br/>
+    
+    <input type="radio" name="base" value="binario" />Base Binario <br/>
+    
+    <input type="radio" name="base" value="hexadecimal" />Base Hexadecimal <br/>
+
+  </fieldset>
+
+
+  <fieldset>
+    
+    <legend><h3>Introduce la base a transformar</h3></legend>
+
+    <input type="radio" name="conversion" value="decimal" />Base Decimal <br/>
+
+    <input type="radio" name="conversion" value="octal" />Base Octal <br/>
+    
+    <input type="radio" name="conversion" value="binario" />Base Binario <br/>
+    
+    <input type="radio" name="conversion" value="hexadecimal" />Base Hexadecimal <br/>
+
+
+  </fieldset>
+
+  </font>
+
+    <br/>
+    <input type="submit" name="Convertir a otra base" />
+
+ </form>
+ 
+ </body>
+
+ </html>

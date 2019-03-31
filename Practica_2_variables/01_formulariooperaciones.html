@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"     
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">   
+<html xmlns="http://www.w3.org/1999/xhtml"  xml:lang="en" lang="en"> 
+<head> 
+    <meta http-equiv="content-type" content="text/html;charset=iso-8859-1" /> 
+    <title>Titulo de la pagina HTML5</title> 
+</head>   
+<body style="background-color: pink">   
+  <font color="blue">
+
+  <form action="01_enviooperaciones.php" method="POST">
+
+    <h3>REALIZAR OPERACIONES CON 2 NUMEROS.</h3>
+
+    <fieldset>
+
+        <legend><h3>Introduce dos numeros:</h3></legend>
+  
+
+    Primer numero: <input type="number" name="digito1" value="1" required />
+
+    <br/>
+
+    Segundo numero: <input type="number" name="digito2" value="5" required />
+
+     </fieldset>
+    <br/>
+    <br/>
+
+    <fieldset>
+
+    <legend><h3>Operaciones que puedes realizar:</h3></legend> 
+    
+
+    <input type="radio" name="calculo" value="suma" />Suma de 2 digitos <br/>
+
+    <input type="radio" name="calculo" value="resta" />Resta de 2 digitos <br/>
+    
+    <input type="radio" name="calculo" value="producto" />Producto de 2 digitos <br/>
+    
+    <input type="radio" name="calculo" value="division" />Division de 2 digitos <br/>
+
+    <input type="radio" name="calculo" value="resto division" />Resto de una division entera <br/>
+
+    <input type="radio" name="calculo" value="mayor" />Mayor de los 2 digitos <br/>
+
+    <input type="radio" name="calculo" value="menor" />Menor de los 2 digitos <br/>
+
+    <input type="radio" name="calculo" value="potencia" />Potencia primer digito elevado a segundo digito <br/>
+    
+    
+    </fieldset>
+    <br/>
+
+  </font>
+
+    <input type="submit" name="Envio de datos" /> 
+
+        
+
+ </form>
+ 
+ </body>
+
+ </html>

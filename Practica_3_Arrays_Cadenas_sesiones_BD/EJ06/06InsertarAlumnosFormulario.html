@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"     
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">   
+<html xmlns="http://www.w3.org/1999/xhtml"  xml:lang="en" lang="en"> 
+<head> 
+    <meta http-equiv="content-type" content="text/html;charset=iso-8859-1" /> 
+    <title>INSERTAR ALUMNO</title> 
+    <style type="text/css">
+  
+        body{
+            background:black;
+            color:pink;
+        }
+        </style>
+</head>   
+<body>   
+
+  <form action="06InsertarAlumnos.php" method="POST">
+
+    <fieldset>
+
+    <legend><h3>DAR DE ALTA UN ALUMNO EN LA BASE DE DATOS: </h3></legend>
+
+    ATENCION: Lea los pasos descritos a continuacion y rellene los campos correctamente, gracias por su atencion. <br><br>
+
+    Paso 1(opcional). Si no esta seguro de los usuarios que hay en la base de datos, pulse Lista de alumnos. <br>
+    Paso 2(obligatorio). Si ya conoce los datos del alumno introduzcalos y pulse Enviar datos, debe rellenar todos los campos. 
+
+    <br>
+    <br>
+
+    <table>
+    
+    <tr>
+        <td>
+
+    
+    
+    Introduzca el identificador del alumno:
+
+    <br>
+    <br>
+
+    <input type="text" name="identi"  /> 
+    
+
+    <br/>
+    <br/>
+    
+    Introduce el nombre del alumno:
+    
+    <br>
+    <br>
+
+    <input type="text" name="nombre"  /> 
+    
+    <br/>
+    <br/>
+
+    Introduce los apellidos del alumno:
+    
+    <br/>
+    <br/>
+
+    <input type="text" name="apellidos"  /> 
+    
+    <br/>
+    <br/>
+
+    Introduce la fecha de nacimiento:
+    
+    <br/>
+    <br/>
+
+    <input type="date" name="fechadenacimiento"  /> 
+
+    <br>
+    <br>
+
+    Introduce el modulo:
+    
+    <br/>
+    <br/>
+    
+    <input type="text" name="modulo"  /> 
+
+    <br>
+    <br>
+
+    Introduce el ciclo:
+    
+    <br/>
+    <br/>
+
+    <input type="radio" name="ciclo" value="ASIR" /> ASIR <br>
+    <input type="radio" name="ciclo" value="DAM" /> DAM <br>
+    <input type="radio" name="ciclo" value="DAW" /> DAW <br>
+    <input type="radio" name="ciclo" value="SMR" /> SMR <br>
+    
+    <br/>
+    <br/>
+
+
+    </td>
+    </tr>
+    
+    
+    </table>
+
+    <input type="submit" name = "envio" value="Enviar Datos" />
+    <input type="submit" name = "consulta" value="Lista de alumnos" />
+    </fieldset>
+
+    <br/>
+       
+
+ </form>
+ 
+ </body>
+
+ </html>

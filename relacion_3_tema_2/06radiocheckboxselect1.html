@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"     
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">   
+<html xmlns="http://www.w3.org/1999/xhtml"  xml:lang="en" lang="en"> 
+<head> 
+    <meta http-equiv="content-type" content="text/html;charset=iso-8859-1" /> 
+    <title>Titulo de la pagina HTML5</title> 
+</head>   
+<body>   
+
+  <form action="06envioradiocheckboxselect1.php" method="GET">
+    Nombre:
+
+    <br/>
+    <input type="text" name="nombre"/> <br/>
+
+    <br/>
+    <br/>
+
+    Ciclo Formativo: <br/>
+    
+    
+    <input type="radio" name="mod1" value="ASIR"/>ASIR<br />
+    <input type="radio" name="mod2" value="DAM"/>DAM<br />
+    <input type="radio" name="mod3" value="DAW"/>DAW<br />
+    <input type="radio" name="mod4" value="SMR"/>SMR<br />
+    
+    <br/>
+    <br/>
+
+    Modulos matriculados: <br/>
+
+    
+    <input type="checkbox" name="Modulos[]" value="Lenguajes de marca"/>lenguajes de marca<br />
+    <input type="checkbox" name="Modulos[]" value="Entorno de desarrollo"/>Entorno de desarrollo<br />
+    <input type="checkbox" name="Modulos[]" value="Administracion de sistemas operativos"/>Administracion de sistemas operativos<br />
+    <input type="checkbox" name="Modulos[]" value="Implantacion de aplicaciones web"/>Implantacion de aplicaciones web<br />
+    <input type="checkbox" name="Modulos[]" value="Sistemas de gestion empresarial"/>Sistemas de gestion empresaria<br />
+    <input type="checkbox" name="Modulos[]" value="sistemas informaticos"/>Sistemas informaticos<br />
+
+    <br/>
+    <br/>
+
+    Selecciona un manual: <br/>
+
+    <select name="manuales">
+        
+        <option value="xml">Manual de xml.</option>
+        <option value="html5">html5</option>
+        <option value="javascript">JavaScript</option>
+        <option value="css">CSS</option>
+        <option value="php7">PHP 7</option>
+
+    </select>
+
+    <br/>
+    <br/>
+
+      <input type="submit" value="Envio" name="mod" />
+      <input type="reset" value="Reiniciar" /> 
+    
+    
+    
+
+   </form>
+  
+  
+
+</body> 
+</html>
